@@ -19,7 +19,9 @@
     position: relative;
     left:0;
     animation: lb 35s cubic-bezier(1,1,0,0) 0s infinite;
-    -webkit-animation:lb 35s cubic-bezier(1,1,0,0) 0s infinite;
+    -webkit-animation:lb 22s cubic-bezier(1,1,0,0) 0s infinite;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
 }
 
 #rotationWrap {
